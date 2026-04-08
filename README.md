@@ -13,7 +13,7 @@ Milawa is a self-verifying theorem prover created by [Jared Davis](https://www.k
 
 #### Building Milawa with ACL2
 
-Some of the details in the Milawa README are outdated. With [acl2-jupyter](https://github.com/acl2/acl2-jupyter) or [Kestrel's acl2-docker](https://github.com/KestrelInstitute/acl2-docker) you just need:
+Some of the details in the Milawa README are outdated. With [acl2-jupyter](https://github.com/jimwhite/acl2-jupyter) or [Kestrel's acl2-docker](https://github.com/KestrelInstitute/acl2-docker) you just need:
 
 ```bash
 cd $ACL2_SYSTEM_BOOKS
