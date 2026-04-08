@@ -20,6 +20,8 @@ echo "(milawa-main '" >> $TEMP
 cat $EVENTS >> $TEMP
 echo ")" >> $TEMP
 
-$JITAWA large < $TEMP
+# This was `large` originally, but failed with free GitHub Codespaces 2-core/8GB RAM,
+# and `medium` is sufficient for the test suite.
+$JITAWA medium < $TEMP
 
 rm $TEMP
